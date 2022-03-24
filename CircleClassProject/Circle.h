@@ -5,7 +5,6 @@
 
 // Circle class
 // all variables will be private, only accessable by the classes member functions
-// all inline, because why not?
 class Circle {
 private:
 	double radius;
