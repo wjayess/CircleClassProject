@@ -12,17 +12,12 @@ private:
 	double pi = 3.14159;
 public:
 	// constructor
-	Circle(double inRadius)
-	{ radius = inRadius; }
+	Circle(double);
 	// accessors
-	double getRadius() const
-	{ return radius; }
-	double getArea() const
-	{ return pi * radius * radius; }
-	double getDiameter() const
-	{ return radius * 2; }
-	double getCircumference() const
-	{ return 2 * pi * radius; }
+	double getRadius() const;
+	double getArea() const;
+	double getDiameter() const;
+	double getCircumference() const;
 };
 
 #endif
